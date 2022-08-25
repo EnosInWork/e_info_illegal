@@ -1,3 +1,5 @@
 # E_info_illegal
 
-discord.gg/5dev
+[Clique ici pour rejoindre le Discord](https://discord.gg/5dev)
+-
+<p>0.00 MS - ESX / Standalone</p> 
