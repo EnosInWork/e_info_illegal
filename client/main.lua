@@ -2,6 +2,11 @@ ShowHelpNotification = function(text)
 	AddTextEntry("HelpNotification", text)
     DisplayHelpTextThisFrame("HelpNotification", false)
 end
+ShowNotification = function(text)
+    SetNotificationTextEntry("STRING")
+    AddTextComponentString(text)
+    DrawNotification(false, false)
+end
 
 coolcoolmec = function(time)
     cooldown = true
@@ -23,10 +28,10 @@ function openInfo()
 								ESX.TriggerServerCallback('eInfo:CheckMoney', function(hasMoney)
 									if hasMoney then
 										TriggerEvent("chatMessage", "", {255, 0, 0}, "Informateur : ^7"..info.info)
-										ESX.ShowNotification("Vous avez payé ~r~"..info.price.."$")
+										ShowNotification("Vous avez payé ~r~"..info.price.."$")
 										coolcoolmec(4000) 
 									else
-										ESX.ShowNotification("Vous n'avez pas assez d'argent")
+										ShowNotification("Vous n'avez pas assez d'argent")
 									end
 								end, info.price)
 							end
