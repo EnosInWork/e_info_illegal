@@ -1,6 +1,9 @@
 fx_version 'adamant'
 games { 'rdr3', 'gta5' }
 
+-----------Enøs#0001Enøs#0001Enøs#0001Enøs#0001Enøs#0001
+
+
 shared_script "config.lua"
 
 server_scripts {
@@ -21,3 +24,5 @@ client_scripts {
   "src/menu/windows/*.lua",
   'client/*.lua',
 }
+
+-----------Enøs#0001Enøs#0001Enøs#0001Enøs#0001Enøs#0001

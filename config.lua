@@ -1,5 +1,8 @@
 Config = {
 
+    -----------Enøs#0001Enøs#0001Enøs#0001Enøs#0001Enøs#0001
+
+
     UseESX = true,
     ESXTrigg = "esx:getSharedObject",
 
@@ -33,6 +36,9 @@ Config = {
 
     },
 }
+
+-----------Enøs#0001Enøs#0001Enøs#0001Enøs#0001Enøs#0001
+
 
 if Config.UseESX == true then 
     if IsDuplicityVersion() then 
